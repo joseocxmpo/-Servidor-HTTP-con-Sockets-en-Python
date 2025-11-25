@@ -56,8 +56,8 @@ No se requieren dependencias externas, solo la biblioteca estándar de Python.
 
 1. Clona el repositorio:
 ```bash
-git clone https://github.com/TU_USUARIO/TU_REPOSITORIO.git
-cd TU_REPOSITORIO
+https://github.com/joseocxmpo/-Servidor-HTTP-con-Sockets-en-Python.git
+cd -Servidor-HTTP-con-Sockets-en-Python.git
 ```
 
 2. (Opcional) Verifica tu versión de Python:
@@ -186,6 +186,7 @@ El servidor incluye protección contra:
 
 Desarrollado para la materia de **Programación Avanzada**  
 Maestría en Tecnologías de Internet  
+José Rodolfo Ocampo Barajas
 Universidad de Colima
 
 ---
