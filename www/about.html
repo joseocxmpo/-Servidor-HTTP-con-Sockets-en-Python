@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>About - Servidor HTTP</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Acerca del Servidor</h1>
+        </header>
+        <main>
+            <section>
+                <h2>Implementación</h2>
+                <p>Este servidor HTTP está implementado usando el módulo <code>socketserver</code> 
+                de Python con <code>ThreadingMixIn</code> para manejar múltiples conexiones 
+                concurrentes usando hilos.</p>
+                
+                <h2 style="margin-top: 20px;">Características</h2>
+                <ul>
+                    <li>Soporte para método GET</li>
+                    <li>Detección automática de tipos MIME</li>
+                    <li>Manejo de errores HTTP (400, 403, 404, 405, 500)</li>
+                    <li>Headers HTTP conformes a RFC 9110</li>
+                    <li>Protección contra directory traversal</li>
+                </ul>
+            </section>
+            <p style="margin-top: 20px;"><a href="/">← Volver al inicio</a></p>
+        </main>
+    </div>
+</body>
+</html>

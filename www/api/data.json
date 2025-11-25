@@ -1,0 +1,8 @@
+{
+    "servidor": "PythonHTTP",
+    "version": "1.0",
+    "metodos_soportados": ["GET", "HEAD"],
+    "concurrencia": "ThreadingMixIn",
+    "universidad": "Universidad de Colima",
+    "materia": "Programación Avanzada"
+}
